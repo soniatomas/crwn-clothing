@@ -20,6 +20,10 @@ import {
   getDocs,
 } from 'firebase/firestore';
 
+/* 8/22/23@9:14PM Note: I believe this yihua's and thats 
+why app couldn't do any authentication 
+*/
+/*
 const firebaseConfig = {
   apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
   authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
@@ -27,6 +31,16 @@ const firebaseConfig = {
   storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
   messagingSenderId: '626766232035',
   appId: '1:626766232035:web:506621582dab103a4d08d6',
+};
+*/
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCuF2JDleJ7NqInU1FbcAyGlGHXeWvH86A",
+  authDomain: "crwn-clothing-db-st.firebaseapp.com",
+  projectId: "crwn-clothing-db-st",
+  storageBucket: "crwn-clothing-db-st.appspot.com",
+  messagingSenderId: "1074618832248",
+  appId: "1:1074618832248:web:2288a1527d356ab428e48d"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
